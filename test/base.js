@@ -47,13 +47,17 @@ exports.testError = function (test) {
   })
 
   var failure = null
+  var doneCalled = false
   builder._exports['test1']({
     ok: function (falsey, msg) {
       test.ok(!falsey)
       failure = msg
     },
-    done: function() {}
+    done: function() {
+      doneCalled = true
+    }
   })
   test.notEqual(-1, failure.indexOf('abc'))
+  test.ok(doneCalled)
   test.done()
 }
