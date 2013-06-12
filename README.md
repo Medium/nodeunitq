@@ -1,4 +1,4 @@
-Simple utilities for nodeunits (like test builders and assertions),
+Simple utilities for nodeunit (like test builders and assertions),
 particularly around Q promises.
 
 In normal nodeunit, you add a test like this:
@@ -14,11 +14,12 @@ exports.testFunction = function (test) {
 In nodeunitq, you write a test like this:
 
 ```js
+var Q = require('Q')
 var nodeunitq = require('nodeunitq')
 var builder = new Builder(exports)
 
-builder.add(function (test) {
-  return promise.run()
+builder.add(function testPromise(test) {
+  return Q.fcall(function () { return 1 })
 })
 ```
 
