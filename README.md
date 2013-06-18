@@ -14,7 +14,7 @@ exports.testFunction = function (test) {
 In nodeunitq, you write a test like this:
 
 ```js
-var Q = require('kew')
+var Q = require('Q')
 var nodeunitq = require('nodeunitq')
 var builder = new nodeunitq.Builder(exports)
 
@@ -24,3 +24,6 @@ builder.add(function testPromise(test) {
 ```
 
 And nodeunitq will take care of the failure handling for you.
+
+Nodeunitq is also compatible with the [kew](https://github.com/Obvious/kew)
+library.
