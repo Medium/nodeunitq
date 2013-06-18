@@ -14,9 +14,9 @@ exports.testFunction = function (test) {
 In nodeunitq, you write a test like this:
 
 ```js
-var Q = require('Q')
+var Q = require('kew')
 var nodeunitq = require('nodeunitq')
-var builder = new Builder(exports)
+var builder = new nodeunitq.Builder(exports)
 
 builder.add(function testPromise(test) {
   return Q.fcall(function () { return 1 })
