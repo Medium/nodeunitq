@@ -61,3 +61,8 @@ exports.testError = function (test) {
   test.ok(doneCalled)
   test.done()
 }
+
+var builder = new Builder(exports)
+builder.add(function testError2() {
+  throw Error()
+})
