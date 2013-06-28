@@ -6,6 +6,10 @@
     "Nick Santos (https://github.com/nicks)"
   ],
   "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Obvious/nodeunitq.git"
+  },
   "main": "nodeunitq.js",
   "devDependencies": {
     "nodeunit": "0.7.4",
