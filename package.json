@@ -5,15 +5,17 @@
   "authors": [
     "Nick Santos (https://github.com/nicks)"
   ],
-  "version": "0.0.3",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/Obvious/nodeunitq.git"
   },
   "main": "nodeunitq.js",
+  "dependencies": {
+    "q": "1.0.0"
+  },
   "devDependencies": {
-    "nodeunit": "0.7.4",
-    "Q": "0.9.5"
+    "nodeunit": "0.7.4"
   },
   "scripts": {
     "test": "./node_modules/.bin/nodeunit test"
