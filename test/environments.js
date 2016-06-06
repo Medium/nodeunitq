@@ -1,6 +1,6 @@
 // Copyright 2014. The Obvious Corporation.
 
-var Q = require('Q')
+var Q = require('q')
 var Builder = require('../nodeunitq').Builder
 var util = require('util')
 

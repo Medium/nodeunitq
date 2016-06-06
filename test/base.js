@@ -1,6 +1,6 @@
 // Copyright 2013. The Obvious Corporation.
 
-var Q = require('Q')
+var Q = require('q')
 var Builder = require('../nodeunitq').Builder
 
 exports.testErrors = function (test) {

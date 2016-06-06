@@ -30,9 +30,6 @@ builder.add(function testPromise(test) {
 
 And nodeunitq will take care of the failure handling for you.
 
-Nodeunitq is also compatible with the [kew](https://github.com/Obvious/kew)
-library.
-
 License
 -------
 
