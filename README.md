@@ -1,3 +1,8 @@
+nodeunitq
+=========
+
+[![Build Status](https://travis-ci.org/Medium/nodeunitq.svg?branch=master)](https://travis-ci.org/Medium/nodeunitq)
+
 Simple utilities for nodeunit (like test builders and assertions),
 particularly around Q promises.
 
@@ -27,3 +32,8 @@ And nodeunitq will take care of the failure handling for you.
 
 Nodeunitq is also compatible with the [kew](https://github.com/Obvious/kew)
 library.
+
+License
+-------
+
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
