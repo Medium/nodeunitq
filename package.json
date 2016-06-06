@@ -13,10 +13,10 @@
   },
   "main": "nodeunitq.js",
   "dependencies": {
-    "q": "1.0.0"
+    "q": "^1.0.0"
   },
   "devDependencies": {
-    "nodeunit": "0.9.1"
+    "nodeunit": "^0.9.1"
   },
   "scripts": {
     "test": "./node_modules/.bin/nodeunit test"
